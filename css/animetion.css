@@ -1,0 +1,28 @@
+
+@keyframes menu {
+  0%, 100% {
+    transform: translatex(0);
+    
+  }
+  50% {
+    transform: translatex(+10px);
+  }
+}
+@keyframes text-Egyption-Party {
+  0%, 100% {
+    opacity: .5;
+    color: aqua;
+    
+  }
+  50% {
+  opacity: 1;
+  }
+}
+@keyframes arrow-up {
+  0%, 100% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+}

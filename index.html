@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>CRUDS</title>
+<!-- font icoon -->
+<link rel="stylesheet" href="font icon/all.min.css">
+<!-- style -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="text-capitalize"   data-bs-spy="scroll" data-bs-target="#navbar">
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="crud bg-info">
+        <div class="head text-center ">
+          <h2>CRUDS</h2>
+          <p>PRODACT MANAGEMENT SYSTEM</p>
+        </div>
+        <!--  -->
+        <div class="inputs ">
+          <input id="Name" name="Name" type="text" placeholder=" Name Prodact" class="form-control w-100 ">
+          <input name="Category" type="text" placeholder="Category" class="form-control w-100 mt-2">
+          <input name="pieces" id="pieces" type="number" placeholder="pieces " class="form-control w-100 mt-2">
+          <input name="Discription" id="pieces" type="text" placeholder="Discription " class="form-control w-100 mt-2">
+          <div class="Price d-flex w-100">
+            <input name="Price"  id="Price" type="number" placeholder="Price " class="form-control">
+            <input name="Taxes" id="Taxes" type="number" placeholder="Taxes " class="form-control">
+            <input name="Ads" id="Ads" type="number" placeholder="Ads " class="form-control">
+            <input name="Descont" id="Descont" type="number" placeholder="Descont " class="form-control">
+            <small class=" fs-4 "  >total: <small></small></small>
+          </div> 
+          <button class="btn btn-primary w-100 mt-2  Cerate " form="Name">Cerate</button>
+          <div class="w-100 d-flex">
+            <button class="btn btn-warning w-50 mt-2 mx-5 updat ">update</button>
+            <button class="btn btn-warning w-50 mt-2 mx-5 Cancel">Cancel</button>
+          </div>
+        </div>
+        <!--  -->
+        <div class="outpuats">
+          <input name="Search" type="text" placeholder=" Search by Name "  class="form-control  mt-5 ">
+          <input name="Search" type="text" placeholder=" Search by Category "  class="form-control  mt-5 Category blockk">
+          <div class="d-flex justify-content-around ">
+            <button class="btn btn-primary w-50 m-2  SearchByName">Search by Name</button>
+            <button class="btn btn-primary w-50 m-2 SearchByCategory">Search by Category</button>  
+          </div>
+        </div>
+        <table class="table table-striped">
+          <button class="btn btn-danger w-100 my-3 delete-all">delete all (<span></span>)</button>  
+          <thead> 
+            <th>id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>taxes</th>
+            <th>ads</th>
+            <th>descont</th>
+            <th>pieces</th>
+            <th>Category</th>
+            <th>Discription</th>
+            <th>total</th>
+            <th>update</th>
+            <th>delete</th>
+          </thead>
+          <tbody class="tbody">
+
+          </tbody>
+        </table>
+      </div>    
+    </div>
+  </div>
+</section>
+
+  <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+  <script src="js/main.js"></script>
+<!--  -->
+</body>
+</html>
+
+
+
+
+
+
+
+

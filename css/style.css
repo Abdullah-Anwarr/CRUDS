@@ -1,0 +1,81 @@
+
+:root{
+  --main-text-color: white ;
+  --main-bg-layer:rgba(224, 20, 20, 0.584);
+  --main-bg-body:white;
+  --second-text-color:black;
+  --second-bg-layer:rgba(0, 0, 0, 0.905);
+  --second-bg-body:rgba(28, 28, 28, 0.905);
+  --second-bg-moov:#390150;
+}
+
+body{
+  background-color: var(--main-bg-body);
+}
+
+*{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: var(--main-color);
+}
+a{
+  text-decoration: none;
+}
+
+/* inputs */
+small{
+  color: red;
+}
+ .Price input  , small {
+margin: 20px 0px 20px 20px;
+width: 20%;
+}
+.updat,.Cancel{
+  display:none;
+}
+.delete-all{
+  display: none;
+}
+/*  */
+.blockk{
+  display: none;
+}
+
+/*  card*/
+.card{
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.432);
+  font-size: 10px;
+}
+.badge{
+  position: absolute;
+}
+/* card end */
+
+
+/*  */
+/* .scroll {
+	animation: down 1.5s infinite;
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translatex(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+} */
+/* <div class="scroll">
+  <i class="fa-solid fa-chevron-right fs-1"></i>
+</div> */
+
+/*  */
